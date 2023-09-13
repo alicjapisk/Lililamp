@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: #fef6ff;
+}
+div#zawartosc {
+  padding: 3em;
+  margin: 5em auto 1em auto;
+  width: 50em;
+  text-align: center;
+}
+div#zawartosc img{
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 20px 22px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.logo img{
+  padding: 1em;
+  background: #ffffff;
+  border-radius: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ededed;
+  color: black;
+}
+
+table {
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+td {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+th, tfoot{
+  background: #eceaea;
+  border-radius: 5px;
+}
+
+.button{
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: rgb(174, 174, 174) solid 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
